@@ -34,6 +34,6 @@ public class MenuPrincipal {
                     System.out.println("No existe la opción.");
             }
 
-        } while (opcion != 4);
+        } while (opcion != 4)                ;
     }
 }

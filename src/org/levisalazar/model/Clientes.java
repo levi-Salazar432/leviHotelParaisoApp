@@ -2,32 +2,32 @@ package org.levisalazar.model;
 
 public class Clientes {
     
-    private int dpi; 
+    private long dpi; 
     private String nacionaliad; 
-    private int telefono; 
+    private String telefono; 
 
     public Clientes() {
     }
 
-    public Clientes(int dpi, String nacionaliad, int telefono) {
+    public Clientes(long dpi, String nacionaliad, String telefono) {
         this.dpi = dpi;
         this.nacionaliad = nacionaliad;
         this.telefono = telefono;
     }
 
-    public int getTelefono() {
+    public String getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(int telefono) {
+    public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
 
-    public int getDpi() {
+    public long getDpi() {
         return dpi;
     }
 
-    public void setDpi(int dpi) {
+    public void setDpi(long dpi) {
         this.dpi = dpi;
     }
 
@@ -35,7 +35,7 @@ public class Clientes {
         return nacionaliad;
     }
 
-    public void setNacionaliad(String nacionaliad) {
+    public void setNacionalidad(String nacionaliad) {
         this.nacionaliad = nacionaliad;
     }
     
